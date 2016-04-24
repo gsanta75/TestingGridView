@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2D783A18F1521E000D4157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D783918F1521E000D4157 /* Foundation.framework */; };
+		6A2D783C18F1521E000D4157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D783B18F1521E000D4157 /* CoreGraphics.framework */; };
+		6A2D783E18F1521E000D4157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D783D18F1521E000D4157 /* UIKit.framework */; };
+		6A2D784418F1521E000D4157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A2D784218F1521E000D4157 /* InfoPlist.strings */; };
+		6A2D784618F1521E000D4157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D784518F1521E000D4157 /* main.m */; };
+		6A2D784A18F1521E000D4157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D784918F1521E000D4157 /* AppDelegate.m */; };
+		6A2D784D18F1521E000D4157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2D784B18F1521E000D4157 /* Main.storyboard */; };
+		6A2D785018F1521E000D4157 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D784F18F1521E000D4157 /* ViewController.m */; };
+		6A2D785218F1521E000D4157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2D785118F1521E000D4157 /* Images.xcassets */; };
+		6A2D785918F1521E000D4157 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D785818F1521E000D4157 /* XCTest.framework */; };
+		6A2D785A18F1521E000D4157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D783918F1521E000D4157 /* Foundation.framework */; };
+		6A2D785B18F1521E000D4157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2D783D18F1521E000D4157 /* UIKit.framework */; };
+		6A2D786318F1521E000D4157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A2D786118F1521E000D4157 /* InfoPlist.strings */; };
+		6A2D786518F1521E000D4157 /* GridViewsColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D786418F1521E000D4157 /* GridViewsColorsTests.m */; };
+		6A2D787018F15239000D4157 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D786F18F15239000D4157 /* Grid.m */; };
+		6A2D787518F15258000D4157 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D787218F15258000D4157 /* myView.m */; };
+		6A2D787618F15258000D4157 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D787418F15258000D4157 /* UIColor+Random.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A2D785C18F1521E000D4157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A2D782E18F1521E000D4157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2D783518F1521E000D4157;
+			remoteInfo = GridViewsColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A2D783618F1521E000D4157 /* GridViewsColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewsColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2D783918F1521E000D4157 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A2D783B18F1521E000D4157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A2D783D18F1521E000D4157 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A2D784118F1521E000D4157 /* GridViewsColors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GridViewsColors-Info.plist"; sourceTree = "<group>"; };
+		6A2D784318F1521E000D4157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A2D784518F1521E000D4157 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A2D784718F1521E000D4157 /* GridViewsColors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GridViewsColors-Prefix.pch"; sourceTree = "<group>"; };
+		6A2D784818F1521E000D4157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A2D784918F1521E000D4157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A2D784C18F1521E000D4157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A2D784E18F1521E000D4157 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A2D784F18F1521E000D4157 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A2D785118F1521E000D4157 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A2D785718F1521E000D4157 /* GridViewsColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewsColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2D785818F1521E000D4157 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A2D786018F1521E000D4157 /* GridViewsColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GridViewsColorsTests-Info.plist"; sourceTree = "<group>"; };
+		6A2D786218F1521E000D4157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A2D786418F1521E000D4157 /* GridViewsColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewsColorsTests.m; sourceTree = "<group>"; };
+		6A2D786E18F15239000D4157 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		6A2D786F18F15239000D4157 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		6A2D787118F15258000D4157 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		6A2D787218F15258000D4157 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		6A2D787318F15258000D4157 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		6A2D787418F15258000D4157 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A2D783318F1521E000D4157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D783C18F1521E000D4157 /* CoreGraphics.framework in Frameworks */,
+				6A2D783E18F1521E000D4157 /* UIKit.framework in Frameworks */,
+				6A2D783A18F1521E000D4157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2D785418F1521E000D4157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D785918F1521E000D4157 /* XCTest.framework in Frameworks */,
+				6A2D785B18F1521E000D4157 /* UIKit.framework in Frameworks */,
+				6A2D785A18F1521E000D4157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A2D782D18F1521E000D4157 = {
+			isa = PBXGroup;
+			children = (
+				6A2D783F18F1521E000D4157 /* GridViewsColors */,
+				6A2D785E18F1521E000D4157 /* GridViewsColorsTests */,
+				6A2D783818F1521E000D4157 /* Frameworks */,
+				6A2D783718F1521E000D4157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A2D783718F1521E000D4157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D783618F1521E000D4157 /* GridViewsColors.app */,
+				6A2D785718F1521E000D4157 /* GridViewsColorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A2D783818F1521E000D4157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D783918F1521E000D4157 /* Foundation.framework */,
+				6A2D783B18F1521E000D4157 /* CoreGraphics.framework */,
+				6A2D783D18F1521E000D4157 /* UIKit.framework */,
+				6A2D785818F1521E000D4157 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A2D783F18F1521E000D4157 /* GridViewsColors */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D784818F1521E000D4157 /* AppDelegate.h */,
+				6A2D784918F1521E000D4157 /* AppDelegate.m */,
+				6A2D784B18F1521E000D4157 /* Main.storyboard */,
+				6A2D784E18F1521E000D4157 /* ViewController.h */,
+				6A2D784F18F1521E000D4157 /* ViewController.m */,
+				6A2D786E18F15239000D4157 /* Grid.h */,
+				6A2D786F18F15239000D4157 /* Grid.m */,
+				6A2D787118F15258000D4157 /* myView.h */,
+				6A2D787218F15258000D4157 /* myView.m */,
+				6A2D787318F15258000D4157 /* UIColor+Random.h */,
+				6A2D787418F15258000D4157 /* UIColor+Random.m */,
+				6A2D785118F1521E000D4157 /* Images.xcassets */,
+				6A2D784018F1521E000D4157 /* Supporting Files */,
+			);
+			path = GridViewsColors;
+			sourceTree = "<group>";
+		};
+		6A2D784018F1521E000D4157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D784118F1521E000D4157 /* GridViewsColors-Info.plist */,
+				6A2D784218F1521E000D4157 /* InfoPlist.strings */,
+				6A2D784518F1521E000D4157 /* main.m */,
+				6A2D784718F1521E000D4157 /* GridViewsColors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A2D785E18F1521E000D4157 /* GridViewsColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D786418F1521E000D4157 /* GridViewsColorsTests.m */,
+				6A2D785F18F1521E000D4157 /* Supporting Files */,
+			);
+			path = GridViewsColorsTests;
+			sourceTree = "<group>";
+		};
+		6A2D785F18F1521E000D4157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A2D786018F1521E000D4157 /* GridViewsColorsTests-Info.plist */,
+				6A2D786118F1521E000D4157 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A2D783518F1521E000D4157 /* GridViewsColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2D786818F1521E000D4157 /* Build configuration list for PBXNativeTarget "GridViewsColors" */;
+			buildPhases = (
+				6A2D783218F1521E000D4157 /* Sources */,
+				6A2D783318F1521E000D4157 /* Frameworks */,
+				6A2D783418F1521E000D4157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridViewsColors;
+			productName = GridViewsColors;
+			productReference = 6A2D783618F1521E000D4157 /* GridViewsColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A2D785618F1521E000D4157 /* GridViewsColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2D786B18F1521E000D4157 /* Build configuration list for PBXNativeTarget "GridViewsColorsTests" */;
+			buildPhases = (
+				6A2D785318F1521E000D4157 /* Sources */,
+				6A2D785418F1521E000D4157 /* Frameworks */,
+				6A2D785518F1521E000D4157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2D785D18F1521E000D4157 /* PBXTargetDependency */,
+			);
+			name = GridViewsColorsTests;
+			productName = GridViewsColorsTests;
+			productReference = 6A2D785718F1521E000D4157 /* GridViewsColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A2D782E18F1521E000D4157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Giuseppe Santaniello";
+				TargetAttributes = {
+					6A2D785618F1521E000D4157 = {
+						TestTargetID = 6A2D783518F1521E000D4157;
+					};
+				};
+			};
+			buildConfigurationList = 6A2D783118F1521E000D4157 /* Build configuration list for PBXProject "GridViewsColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A2D782D18F1521E000D4157;
+			productRefGroup = 6A2D783718F1521E000D4157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A2D783518F1521E000D4157 /* GridViewsColors */,
+				6A2D785618F1521E000D4157 /* GridViewsColorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A2D783418F1521E000D4157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D785218F1521E000D4157 /* Images.xcassets in Resources */,
+				6A2D784418F1521E000D4157 /* InfoPlist.strings in Resources */,
+				6A2D784D18F1521E000D4157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2D785518F1521E000D4157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D786318F1521E000D4157 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A2D783218F1521E000D4157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D787618F15258000D4157 /* UIColor+Random.m in Sources */,
+				6A2D785018F1521E000D4157 /* ViewController.m in Sources */,
+				6A2D784A18F1521E000D4157 /* AppDelegate.m in Sources */,
+				6A2D784618F1521E000D4157 /* main.m in Sources */,
+				6A2D787518F15258000D4157 /* myView.m in Sources */,
+				6A2D787018F15239000D4157 /* Grid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2D785318F1521E000D4157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2D786518F1521E000D4157 /* GridViewsColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A2D785D18F1521E000D4157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A2D783518F1521E000D4157 /* GridViewsColors */;
+			targetProxy = 6A2D785C18F1521E000D4157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A2D784218F1521E000D4157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2D784318F1521E000D4157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A2D784B18F1521E000D4157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2D784C18F1521E000D4157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2D786118F1521E000D4157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2D786218F1521E000D4157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A2D786618F1521E000D4157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A2D786718F1521E000D4157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A2D786918F1521E000D4157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewsColors/GridViewsColors-Prefix.pch";
+				INFOPLIST_FILE = "GridViewsColors/GridViewsColors-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "giuseppesantaniello.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A2D786A18F1521E000D4157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewsColors/GridViewsColors-Prefix.pch";
+				INFOPLIST_FILE = "GridViewsColors/GridViewsColors-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "giuseppesantaniello.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A2D786C18F1521E000D4157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridViewsColors.app/GridViewsColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewsColors/GridViewsColors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GridViewsColorsTests/GridViewsColorsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "giuseppesantaniello.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A2D786D18F1521E000D4157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridViewsColors.app/GridViewsColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GridViewsColors/GridViewsColors-Prefix.pch";
+				INFOPLIST_FILE = "GridViewsColorsTests/GridViewsColorsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "giuseppesantaniello.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A2D783118F1521E000D4157 /* Build configuration list for PBXProject "GridViewsColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2D786618F1521E000D4157 /* Debug */,
+				6A2D786718F1521E000D4157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2D786818F1521E000D4157 /* Build configuration list for PBXNativeTarget "GridViewsColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2D786918F1521E000D4157 /* Debug */,
+				6A2D786A18F1521E000D4157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2D786B18F1521E000D4157 /* Build configuration list for PBXNativeTarget "GridViewsColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2D786C18F1521E000D4157 /* Debug */,
+				6A2D786D18F1521E000D4157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A2D782E18F1521E000D4157 /* Project object */;
+}
